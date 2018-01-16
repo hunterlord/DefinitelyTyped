@@ -7,6 +7,8 @@ declare namespace echarts {
     function init(dom: HTMLDivElement | HTMLCanvasElement, theme?: Object | string, opts?: {
         devicePixelRatio?: number
         renderer?: string
+        width?: number
+        height?: number
     }): ECharts;
 
     const graphic: {
